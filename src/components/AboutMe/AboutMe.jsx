@@ -40,7 +40,6 @@ const AboutMe = () => {
         <div className={styles.skillSectionHeader}>
           <FrontEnd></FrontEnd>
           <BackEnd></BackEnd>
-          <div>fsjhfdj</div>
         </div>
       </div>
     </div>

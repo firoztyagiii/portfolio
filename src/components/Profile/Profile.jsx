@@ -12,12 +12,12 @@ const Profile = () => {
   return (
     <div className={styles.mainLeft}>
       <Menu></Menu>
-      <div className={styles.back}></div>
       <div className={styles.bgImgContainer}>
-        <img className={styles.bgImg} src="bg.jpg"></img>
+        {/* <img className={styles.bgImg} src="softeng.webp"></img> */}
       </div>
       <div className={styles.details}>
         <div className={styles.meContainer}>
+          <div className={styles.meContainerBg}></div>
           <img className={styles.me} src="Me.jpg"></img>
         </div>
         <p className={styles.name}>Firoz Tyagi</p>

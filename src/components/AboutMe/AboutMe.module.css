@@ -1,0 +1,48 @@
+.aboutMe {
+  background-color: var(--bg-color);
+  overflow-y: scroll;
+  margin-left: 1rem;
+  color: #fff;
+  box-shadow: -5px 9px 5px -1px rgba(0, 0, 0, 0.15);
+  letter-spacing: 2px;
+  height: 55rem;
+}
+
+.aboutMeText {
+  padding: 2.5rem;
+  color: var(--secondary-color);
+}
+
+.aboutMeText h2 {
+  font-size: 1.8rem;
+  font-size: 400;
+}
+
+.aboutMeText p {
+  padding: 1rem 0rem;
+  font-size: 1.5rem;
+}
+
+.aboutMePersonal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 2rem;
+}
+
+.aboutMePersonal div {
+  display: flex;
+  gap: 4rem;
+}
+
+.aboutMePersonalKey {
+  font-weight: 600;
+}
+
+/* SKILLS */
+
+.skillSectionHeader {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+}

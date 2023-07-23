@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&display=swap");
+
+:root {
+  --primary-color: #f6b846;
+  --bg-color: #222222;
+  --secondary-color: #rgba(255, 255, 255, 0.55);
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 67.5%;
+}
+
+body {
+  font-family: "Lekton", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #161616;
+  height: 100dvh;
+  width: 100%;
+  color: black;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--bg-color);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #7e7e7e;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}

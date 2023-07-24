@@ -1,5 +1,8 @@
 import BackEnd from "../End/BackEnd";
 import FrontEnd from "../End/FrontEnd";
+import Knowledge from "../Knowlegde/Knowledge";
+import Language from "../Language/Language";
+
 import Tab from "../UI/Tab";
 import styles from "./AboutMe.module.css";
 
@@ -9,11 +12,12 @@ const AboutMe = () => {
       <Tab>About Me</Tab>
       <div className={styles.aboutMeDetails}>
         <div className={styles.aboutMeText}>
-          <h2>Hello! I’m Donald Wellborn.</h2>
+          <h2>Hello! I’m Firoz Tyagi.</h2>
           <p>
-            Back-end & Frond-end developer from UK, London. I have rich
-            experience in wordpress, also I am good at Magento. I love to talk
-            with you about our unique.
+            Seeking a back-end or front-end developer position as a fresher.
+            Proficient in <span>MERN Stack</span>. Passionate about implementing
+            and launching new projects. Ability to translate business
+            requirements into technical solution.
           </p>
           <div className={styles.aboutMePersonal}>
             <div>
@@ -40,6 +44,10 @@ const AboutMe = () => {
         <div className={styles.skillSectionHeader}>
           <FrontEnd></FrontEnd>
           <BackEnd></BackEnd>
+        </div>
+        <div className={styles.skillSectionHeader}>
+          <Knowledge></Knowledge>
+          <Language></Language>
         </div>
       </div>
     </div>

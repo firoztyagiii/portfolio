@@ -23,6 +23,11 @@
   font-size: 1.5rem;
 }
 
+.aboutMeText p span {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
 .aboutMePersonal {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -43,6 +48,6 @@
 .skillSectionHeader {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
 }

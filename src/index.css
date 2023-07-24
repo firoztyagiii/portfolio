@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700&display=swap");
 :root {
   --primary-color: #f6b846;
   --bg-color: #222222;
@@ -19,7 +18,7 @@ html {
 }
 
 body {
-  font-family: "Lekton", sans-serif;
+  font-family: "Mukta", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
